@@ -4,7 +4,7 @@ services:
   - type: web
     name: hospital-map-finder
     env: node
-    buildCommand: npm run build
+    buildCommand: npm install --include=dev && npm run build
     startCommand: npm run start
     envVars:
       - key: NODE_ENV
