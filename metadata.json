@@ -1,0 +1,6 @@
+{
+  "name": "Radar Saúde",
+  "description": "Sistema de monitoramento de filas do SUS com cálculo inteligente de atendimento, triagem integrada e botão de emergência.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
