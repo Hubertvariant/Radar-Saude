@@ -1,0 +1,12 @@
+# Configuration for automatic deployment on Render (https://render.com)
+# This deploys the app as a robust, fully dynamic Web Service running Node.js.
+services:
+  - type: web
+    name: hospital-map-finder
+    env: node
+    buildCommand: npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+
